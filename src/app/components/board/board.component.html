@@ -1,0 +1,5 @@
+<div class="board">
+    <div (click)="handleColumnClick(i)" *ngFor="let column of board; let i = index" class="board__column">
+        <app-token [token]="token" *ngFor="let token of column"></app-token>
+    </div>
+</div>

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "connectFour"
+    }
+  },
+  "defaultProject": "connectFour",
+  "cli": {
+    "analytics": "c53a1008-c523-4239-88b0-df542d223840"
+  }
 }
